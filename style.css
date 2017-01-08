@@ -1,0 +1,48 @@
+body {
+    background-color: powderblue;
+}
+
+#carousel {
+    padding: 0;
+    border: 2px solid black;
+    overflow: hidden;
+}
+#carousel ul {
+    padding: 0;
+    margin: 0;
+    width: 2000px;
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+#carousel li {
+    max-height:400px;
+    float: left;
+}
+
+#buttonForward, #buttonBackward {
+    height: 30px;
+    color: navy;
+    background-color: darkgrey;
+    border: 1px  solid black;
+    font-size: 18px;
+    border-radius: 3px;
+}
+#carousel, .buttons {
+    margin: 0 auto;
+}
+.top {
+    margin-top: 100px;
+}
+#carousel, .buttons, #buttonForward, #buttonBackward {
+    width: 400px;
+}
+#carousel, #carousel img {
+    height: 400px;
+}
+#carousel li, #carousel img {
+    max-width: 400px;
+}
+#carousel ul, #carousel li {
+    list-style-type: none;
+}
